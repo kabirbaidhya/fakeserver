@@ -7,4 +7,4 @@ RUN apk update && apk add nodejs yarn npm git && \
     rm -rf /var/cache/apk/*
 
 RUN npm install -g pm2 && \
-    npm cache clean
+    npm cache clean --force
