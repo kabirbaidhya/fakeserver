@@ -1,4 +1,4 @@
-# Fakeserver
+# fakeserver
 
 A docker container to emulate a remote server for testing. The primary purpose is to emulate and test running automated scripts and utilities over ssh in remote servers.
 
