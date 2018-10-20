@@ -23,7 +23,10 @@ Set authorized keys for the server.
 Run the fakeserver.
 
 ```bash
-➜ docker run -d -p 2222:22 -v "/path/to/authorized_keys:/etc/authorized_keys/tester" -e SSH_USERS="tester:1001:1001" --name=fakeserver kabirbaidhya/fakeserver
+➜ docker run -d -p 2222:22 \
+             -v "/path/to/authorized_keys:/etc/authorized_keys/tester" \
+             -e SSH_USERS="tester:1001:1001" \
+             --name=fakeserver kabirbaidhya/fakeserver
 ```
 
 You can now use the fakeserver from any ssh client. For instance:
