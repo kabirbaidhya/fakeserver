@@ -4,7 +4,7 @@ A docker container to emulate a remote server for testing. The primary purpose i
 
 https://hub.docker.com/r/kabirbaidhya/fakeserver/
 
-Uses https://github.com/panubo/docker-sshd as a base image to run `sshd` service in it.
+Uses https://github.com/panubo/docker-sshd as a base image to run OpenSSH `sshd` service.
 
 ## Usage
 
