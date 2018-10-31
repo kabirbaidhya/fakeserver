@@ -6,7 +6,23 @@ https://hub.docker.com/r/kabirbaidhya/fakeserver/
 
 Uses https://github.com/panubo/docker-sshd as a base image to run OpenSSH `sshd` service.
 
-## Usage
+## Quick Spin Up
+Set it up
+```bash
+➜ git clone https://github.com/kabirbaidhya/fakeserver.git
+➜ cd fakeserver
+➜ cat ~/.ssh/id_rsa.pub > .authorized_keys
+```
+Run the server
+```bash
+➜ ./up.sh
+```
+
+Test it out
+```bash
+➜ ssh app@localhost -p 2222
+```
+## Custom Usage
 
 Pull the image.
 
